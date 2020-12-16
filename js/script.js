@@ -6,7 +6,7 @@ var email = new Vue ({
   methods: {},
   mounted: function() {
     const self = this
-    for (var i = 0; i <9; i++) {
+    for (var i = 0; i <=9; i++) {
       axios
       .get('https://flynn.boolean.careers/exercises/api/random/mail')
       .then(function (response) {

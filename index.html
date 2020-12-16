@@ -12,7 +12,7 @@
   <div id="root">
     <h1>Lista email</h1>
     <p>email:</p>
-    <span v-for="mail in mails">{{mail}}<br></span>
+    <span v-for="(mail, index) in mails">{{index}}) {{mail}}<br></span>
   </div>
   <script src="js/script.js" charset="utf-8"></script>
 </body>
